@@ -64,13 +64,13 @@ li {
     padding: 0.5em 1em;
     border-radius: 0.3em 0.3em 0 0;
 }
-li:hover {
+menu li:hover {
     cursor: pointer;
 }
 .curSel {
     background-color: rgba(0, 174, 255, 0.342);
 }
-p {
+.Quote {
     font-size: x-large;
     font-weight: 600;
     font-style: italic;
@@ -113,4 +113,30 @@ img {
     background-color: var(--bg-1);
     margin-bottom: 1em;
     border-bottom: brown 3px solid;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    justify-content: space-between;
+}
+.tasklist button {
+    height: fit-content;
+    border-radius: 2px;
+    border: none;
+    background: none;
+}
+.task {
+    font: optional;
+}
+button:hover {
+    cursor: pointer;
+    color: olive;
+}
+.rmvTask {
+    color: brown;
+}
+.mdfTask {
+    color: blue;
+}
+.btns {
+    min-width: fit-content;
 }
