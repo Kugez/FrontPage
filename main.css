@@ -1,0 +1,116 @@
+:root {
+    --accent-1: rgba(7, 215, 215, 0.171);
+    --bg-1: rgb(222, 244, 232);
+}
+
+body {
+    background-color: var(--bg-1);
+    font-family: 'Open sans', sans-serif;
+    margin: 0;
+}
+header {
+    background-color: rgb(158, 229, 188);
+    padding-top: 2em;
+
+}
+h1 {
+    text-align: center;
+}
+.boxWrap {
+    margin-top: 3%;
+    padding: 50px;
+    height: 150%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 30px;
+    column-gap: 5em;
+
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--accent-1);
+    padding: 1em 3em;
+    border-radius: 0.7em;
+
+}
+.Cont {
+    padding-bottom: 1em;
+}
+.int {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+.int > a {
+    text-decoration: none;
+    font-size: 2rem;
+}
+menu {
+    background-color: var(--accent-1);
+    border-radius: 0.3em 0.3em 0 0;
+    margin-inline: auto;
+    width: fit-content;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+li {
+    font-size: larger;
+    padding: 0.5em 1em;
+    border-radius: 0.3em 0.3em 0 0;
+}
+li:hover {
+    cursor: pointer;
+}
+.curSel {
+    background-color: rgba(0, 174, 255, 0.342);
+}
+p {
+    font-size: x-large;
+    font-weight: 600;
+    font-style: italic;
+}
+.wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+.semiwrap {
+    display: flex;
+    flex-direction: row;
+    padding-inline: 3vw;
+}
+#homeicon {
+    height: 130px;
+    aspect-ratio: 1;
+    position: absolute;
+    left: 20%;
+}
+.favIcon {
+    height: 64px;
+    aspect-ratio: 1;
+}
+img {
+    margin-bottom: 0;
+}
+.hidden {
+    display: none;
+}
+#todoList {
+    border-radius: 5px;
+}
+.tasklist {
+    list-style: none;
+    padding-inline-start: 0;
+}
+.tasklist > li {
+    background-color: var(--bg-1);
+    margin-bottom: 1em;
+    border-bottom: brown 3px solid;
+}
