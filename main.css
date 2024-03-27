@@ -15,6 +15,10 @@ header {
 }
 h1 {
     text-align: center;
+    background: -webkit-linear-gradient(#60d4ea, #012f82);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
 }
 .boxWrap {
     margin-top: 3%;
